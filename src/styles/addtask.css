@@ -1,0 +1,83 @@
+.add-task-outer{
+    height: 100%;
+    width: 100%;
+    font-family: "poppins";
+}
+.a-t-h1-outer{
+margin-top: 25px;
+padding-left: 15px;
+display: flex;
+font-size: 25px;
+font-weight: 700;
+gap: 15px;
+}
+.a-t-form-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.a-t-form-main{
+    width: 80%;
+    height: 45%;
+    padding: 15px;
+
+
+}
+.a-t-i1-outer input{
+    width: 80%;
+    height: 30px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    color: black;
+    border-bottom: 1px solid violet;
+    background-color: #fff;
+   margin: 15px;
+
+
+}
+.a-t-i1-outer input:focus{
+    outline: none;
+    border-bottom: 1px solid blueviolet;
+}
+.a-t-i2-outer input{
+    width: 80%;
+    height: 30px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    margin: 15px;
+    color: black;
+    border-bottom: 1px solid violet;
+    background-color: #fff;
+
+}
+.a-t-i2-outer input:focus{
+    outline: none;
+    border-bottom: 1px solid blueviolet;
+
+}
+.a-t-btn-outer{
+    padding: 15px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.a-t-btn-outer button{
+    border-radius: 50%;
+    padding: 1px;
+    font-size: 15px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    outline: none;
+    border:none;
+    box-shadow: 1px 1px 10px silver;
+}
+.a-t-btn-outer button:hover{
+    box-shadow: 1px 1px 10px violet;
+}

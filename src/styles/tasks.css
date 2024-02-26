@@ -1,0 +1,31 @@
+.tasks-outer{
+    width: 100%;
+    background-color: #fff;
+    margin: 10px 0px;
+    padding: 0px 10px;
+}
+.tasks-outer .tasks-o1{
+    display: flex;
+    font-size: 21px;
+    font-family: "poppins";
+    margin-bottom: 10px;
+}
+.tasks-outer .tasks-o2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 21px;
+    font-family: "poppins";
+    cursor: pointer;
+    align-items: center;
+
+}
+.tasks-outer h6{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.169);
+
+}

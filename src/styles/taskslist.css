@@ -1,0 +1,54 @@
+.taskslist-outer{
+    min-width:100%;
+    min-height: 80%;
+    font-family: "poppins";
+    
+}
+.taskslist-img-outer{
+    min-height: 420px;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.taskslist-outer h1{
+    padding-left: 15px;
+    font-size: 25px;
+}
+.taskslist-bottom{
+    text-align: end;
+
+}
+.tasks-img-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.taskslist-bottom .faplus-icon{
+    margin-right: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: 10px;
+    font-weight: 100px;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.489);
+    padding: 10px;
+}
+.tasks-list-items{
+    background-color: #fff;
+    max-height: 450px;
+    overflow: scroll;
+    overscroll-behavior-x: none;
+}
+.tasks-list-items::-webkit-scrollbar{
+    display: none;
+}
+.taskslist-bottom .faplus-icon:hover{
+    box-shadow: 1px 1px 10px rgba(113, 178, 239, 0.758);
+
+}
+.tasks-list-mid-outer{
+    min-height: 450px;
+    padding: 15px;
+}

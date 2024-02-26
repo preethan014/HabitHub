@@ -1,0 +1,33 @@
+.a-p-outer{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a-p-inner{
+    text-align: center;
+    font-family: "poppins";
+    height: fit-content;
+    padding: 25px 10px;
+    background-color: #fff;
+    width: 70%;
+}
+.a-p-inner img{
+    height: 60%;
+    width: 70%;
+}
+.a-p-btn{
+    display: block;
+}
+.a-p-btn button{
+    padding: 7px 18px;
+    border: none;
+    cursor: pointer;
+    background-color: #F9FAFB;
+    font-size: 21px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.255);
+    font-weight: 700px;
+    display: inline-block;
+}

@@ -1,0 +1,70 @@
+.calendar-outer{
+display: inline-block;
+margin-top: 25px;
+font-family: "poppins";
+min-width: 100%;
+
+
+}
+.table-outer{
+    height:200px;
+    font-size: 12px;
+ 
+}
+.table-thead-outer{
+    display: flex;
+}
+.table-thead-outer th{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+}
+.table-tbody-outer .t-r td:hover{
+    background-color: #d94f4f;
+    border-radius: 50%;
+}
+.table-tbody-outer .t-r td:active{
+    background-color: #a179e8;
+    border-radius: 50%;
+}
+.table-tbody-outer .t-r{
+    display: flex;
+}
+.t-r td{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+
+
+}
+.calendar-m-y-outer{
+    display: flex;
+    position: relative;
+    font-size: 18px;
+    column-gap: 5px;
+    height: 40px;
+    align-items: center;
+    padding-left: 5px;
+}
+.change-date-outer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+.c-c-u{
+    position: absolute;
+    right: 35px;
+    cursor: pointer;
+}
+.c-c-d{
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+
+}

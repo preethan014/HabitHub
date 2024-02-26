@@ -1,0 +1,17 @@
+.l-p-outer{
+    height: 600px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.l-p-inner{
+    padding: 15px;
+    text-align: center;
+    font-family: "poppins";
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px salmon;
+}
+.l-p-text{
+    margin-top: 15px;
+}
